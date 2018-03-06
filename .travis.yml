@@ -5,8 +5,8 @@ language: java
 jdk: oraclejdk8
 install: true
 before_install:
-- sudo apt update -y || true
-- sudo apt install -y --no-install-recommends git bash
+- sudo apt update -y || true >/dev/null 2>&1
+- sudo apt install -y --no-install-recommends git bash >/dev/null 2>&1
 script:
 - export root=$(pwd)
 - git clone https://github.com/daggerok/spring-integration-5-examples.git $root/gitbook-example
