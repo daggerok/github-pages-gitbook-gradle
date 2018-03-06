@@ -10,6 +10,9 @@ before_install:
 script:
 - export root=$(pwd)
 - git clone https://github.com/daggerok/spring-integration-5-examples.git $root/gitbook-example
+- cd $root/gitbook-example
+- bash gradlew clean gitbook
+- ls -lah $root/gitbook-example/docs
 - cd $root/gitbook-example/gitbook
 - bash gradlew clean gitbook
 - ls -lah $root/gitbook-example/docs
