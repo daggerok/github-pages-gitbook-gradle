@@ -2,4 +2,4 @@
 
 [Gitbook Gradle GitHub Pages example](https://github.com/daggerok/spring-integration-5-examples/tree/master/gitbook)
 
-see link:./.travis.yml[.travis.yml] for details
+see [.travis.yml](./.travis.yml) for details
