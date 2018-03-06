@@ -14,4 +14,3 @@ script:
 - bash gradlew clean gitbook
 - ls -lah $root/gitbook-example/gitbook/build
 - ls -lah $root/gitbook-example/gitbook/build/gitbook
-- ls -lah $root/gitbook-example/gitbook/build/gitPublish
