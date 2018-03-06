@@ -8,6 +8,8 @@ before_install:
 - sudo apt update -y || true
 - sudo apt install -y --no-install-recommends git bash
 script:
-- git clone https://github.com/daggerok/spring-integration-5-examples.git gitbook-example
-- cd gitbook-example/gitbook
+- export root=$(pwd)
+- git clone https://github.com/daggerok/spring-integration-5-examples.git $root/gitbook-example
+- cd $root/gitbook-example/gitbook
 - bash gradlew clean gitbook
+- ls -lah $root/gitbook-example/docs
