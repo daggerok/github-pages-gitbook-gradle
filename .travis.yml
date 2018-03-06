@@ -8,6 +8,6 @@ before_install:
 - sudo apt update -y || true
 - sudo apt install -y --no-install-recommends git bash
 script:
-- git clone https://github.com/daggerok/github-pages-gitbook-gradle.git gitbook-example
+- git clone https://github.com/daggerok/spring-integration-5-examples.git gitbook-example
 - cd gitbook-example/gitbook
 - bash gradlew clean gitbook
