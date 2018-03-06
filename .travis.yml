@@ -12,7 +12,6 @@ script:
 - git clone https://github.com/daggerok/spring-integration-5-examples.git $root/gitbook-example
 - cd $root/gitbook-example
 - bash gradlew clean gitbook
-- ls -lah $root/gitbook-example/docs
-- cd $root/gitbook-example/gitbook
-- bash gradlew clean gitbook
-- ls -lah $root/gitbook-example/docs
+- ls -lah $root/gitbook-example/build
+- ls -lah $root/gitbook-example/build/gitbook
+- ls -lah $root/gitbook-example/build/gitPublish
