@@ -2,4 +2,4 @@
 
 [Gitbook Gradle GitHub Pages example (+ git push using org.ajoberstar.git-publish 0.3.0)](https://github.com/daggerok/spring-integration-5-examples/blob/master/gitbook/build.gradle)
 
-see [.travis.yml](./.travis.yml) for details
+details in [.travis.yml](./.travis.yml)
